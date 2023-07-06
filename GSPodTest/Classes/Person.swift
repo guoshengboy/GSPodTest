@@ -7,6 +7,6 @@
 
 import Foundation
 
-class Person{
-    var name = ""
+public class Person: NSObject{
+    var name: String?
 }

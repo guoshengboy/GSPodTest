@@ -13,21 +13,20 @@ Pod::Spec.new do |s|
   s.description      = 'aaaa'
 
   s.homepage         = 'https://github.com/caoguosheng/GSPodTest'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'caoguosheng' => 'caoguosheng.smg.cn' }
   s.source           = { :git => 'https://github.com/caoguosheng/GSPodTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
-
+  s.swift_version = '5.0'
   s.source_files = 'GSPodTest/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'GSPodTest' => ['GSPodTest/Assets/*.png']
-  # }
+#  s.resource_bundles = {
+#     'GSPodTest' => ['GSPodTest/Assets/*']
+#   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   #   s.public_header_files = 'Pod/Classes/**/*.h'
+   s.frameworks = 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
