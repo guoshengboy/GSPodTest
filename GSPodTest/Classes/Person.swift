@@ -8,5 +8,5 @@
 import Foundation
 
 public class Person: NSObject{
-    var name: String?
+    public var name: String?
 }
