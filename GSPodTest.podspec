@@ -10,9 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'GSPodTest'
   s.version          = '0.0.1'
   s.summary          = 'A short description of GSPodTest.'
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'aaaa'
 
   s.homepage         = 'https://github.com/caoguosheng/GSPodTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
