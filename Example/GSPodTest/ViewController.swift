@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let p = Person()
+        p.name = "11111"
     }
 
     override func didReceiveMemoryWarning() {

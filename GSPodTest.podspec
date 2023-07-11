@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'caoguosheng' => 'caoguosheng.smg.cn' }
-  s.source           = { :git => 'https://github.com/caoguosheng/GSPodTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://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@github.com/caoguosheng/GSPodTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
